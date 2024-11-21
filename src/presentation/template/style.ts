@@ -44,11 +44,11 @@ export const AlignTitleView = styled.View`
 export const AlignTextView = styled.View``;
 
 export const SubTitleView = styled.Text<Props>`
-  font-size: 14px;
+  font-size: 12px;
   color: ${(props) => (props.theme === 'light' ? '#898da1' : '#9f9f9f')};
 `;
 export const TitleView = styled.Text<Props>`
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   width: 200px;
   color: ${(props) => (props.theme === 'light' ? '#292d3e' : '#ffffff')};
@@ -56,6 +56,6 @@ export const TitleView = styled.Text<Props>`
 export const PressableView = styled.Pressable``;
 
 export const LogoView = styled.Image<Props>`
-  width: 56px;
-  height: 50px;
+  width: 156px;
+  height: 40px;
 `;
